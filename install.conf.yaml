@@ -4,14 +4,24 @@
 
 - clean: ['~']
 
-# - link:
-#    ~/.tmux.conf: tmux.conf
-#    ~/.vim: vim
-#    ~/.vimrc: vimrc
+- link:
+    ~/.zshrc:
+    ~/.zshenv:
+    ~/.gitconfig:
+    ~/.config/bat:
+      create: true
+      path: config/bat
 
-# - create:
-#    - ~/downloads
-#    - ~/.vim/undo-history
+- create:
+    - ~/Work
 
-# - shell:  
-#  - [git submodule update --init --recursive, Installing submodules]
+- shell:
+    - command: ./setup_homebrew.zsh
+      stdout: true
+      stderr: true
+    - command: ./setup_zsh.zsh
+      stdout: true
+      stderr: true
+    - command: ./setup_macos.zsh
+      stdout: true
+      stderr: true
