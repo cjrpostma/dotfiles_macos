@@ -1,0 +1,26 @@
+# Source .zshrc
+alias szsh="source ~/.zshrc"
+
+# ls to exa
+alias l="exa --icons --sort=ext"
+alias ls="exa --icons --all --sort=ext"
+alias tree="exa --icons --tree"
+
+# Vim to NVim
+alias vim="nvim"
+
+# Add protection to commands
+alias rm="rm -i"
+alias mv="mv -i"
+alias cp="cp -i"
+
+# AWS accounts
+alias set-aws-personal="export AWS_PROFILE=personal"
+alias set-aws-mi="export AWS_PROFILE=msl"
+alias set-aws-ma-development="export AWS_PROFILE=mslc-rtcdev"
+alias set-aws-ma-production="export AWS_PROFILE=massit-ma-state-lottery"
+
+# Testing
+alias yti="yarn test:integration"
+alias ytu="yarn test:unit"
+alias ydu="yarn docker:up"
