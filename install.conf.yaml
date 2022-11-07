@@ -5,9 +5,11 @@
 - clean: ['~']
 
 - link:
-    ~/.zshrc:
-    ~/.zshenv:
-    ~/.gitconfig:
+    ~/.zshrc: zshrc
+    ~/.zshenv: zshenv
+    ~/.gitconfig: gitconfig
+    ~/.tmux: tmux
+    ~/.tmux.conf: tmux.conf
     ~/.config/bat:
       create: true
       path: config/bat
@@ -15,13 +17,13 @@
 - create:
     - ~/Work
 
-- shell:
-    - command: ./setup_homebrew.zsh
-      stdout: true
-      stderr: true
-    - command: ./setup_zsh.zsh
-      stdout: true
-      stderr: true
-    - command: ./setup_macos.zsh
-      stdout: true
-      stderr: true
+# - shell:
+#    - command: ./setup_homebrew.zsh
+#      stdout: true
+#      stderr: true
+#    - command: ./setup_zsh.zsh
+#      stdout: true
+#      stderr: true
+#    - command: ./setup_macos.zsh
+#      stdout: true
+#      stderr: true
