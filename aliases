@@ -2,9 +2,13 @@
 alias szsh="source ~/.zshrc"
 
 # ls to exa
-alias l="exa --icons --sort=ext"
-alias ls="exa --icons --all --sort=ext"
+alias exa='exa -laFh --git'
+alias l="exa --icons --sort=ext --git"
+alias ls="exa --icons --all --sort=ext --git"
 alias tree="exa --icons --tree"
+
+# Load history into shell (shareHistory alternative)
+alias lh='fc -RI; echo "loaded and showing..."; history;'
 
 # Vim to NVim
 alias vim="nvim"
