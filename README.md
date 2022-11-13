@@ -5,10 +5,12 @@
 [Create a bootable USB installer for macOS](https://support.apple.com/en-us/HT201372).
 
 Software audit:
+
 - Uninstall unwanted software (e.g. GarageBand, iMovie, Keynote, Numbers, Pages)
 - Install missing software (look at `/Applications`, panes in System Preferences , maybe `~/Applications`, etc.)
 
 Backup / sync files:
+
 - Commit and Push to remote repositories
 - Run `code --list-extensions > vscode_extensions` from `~/.dotfiles` to export [VS Code extensions](vscode_extensions)
 - Time Machine
@@ -18,16 +20,16 @@ Backup / sync files:
 - etc.
 
 Deactivate licenses:
+
 - Dropbox (`Preferences > Account > Unlink`)
 - ScreenFlow (`Preferences > Licenses > Deactivate`)
 - Sign Out of App Store (`Menu > Store > Sign Out`)
 - iTunes, etc.
 
-
 ## Restore Instructions
 
 1. `xcode-select --install` (Command Line Tools are required for Git and Homebrew)
-2. `git clone https://github.com/eieioxyz/dotfiles_macos.git ~/.dotfiles`. We'll start with `https` but switch to `ssh` after everything is installed.
+2. `git clone https://github.com/cjrpostma/dotfiles_macos.git ~/.dotfiles`. We'll start with `https` but switch to `ssh` after everything is installed.
 3. `cd ~/.dotfiles`
 4. If necessary, `git checkout <another_branch>`.
 5. Do one last Software Audit by editing [Brewfile](Brewfile) directly.
@@ -39,7 +41,7 @@ Deactivate licenses:
 
     ```zsh
     # Generate SSH key in default location (~/.ssh/config)
-    ssh-keygen -t rsa -b 4096 -C "66495007+eieioxyz@users.noreply.github.com"
+    ssh-keygen -t rsa -b 4096 -C "44818815+cjrpostma@users.noreply.github.com"
 
     # Start the ssh-agent
     eval "$(ssh-agent -s)"
@@ -52,7 +54,7 @@ Deactivate licenses:
       IdentityFile ~/.ssh/id_rsa
     EOF
 
-    # Add private key to ssh-agent 
+    # Add private key to ssh-agent
     ssh-add -K ~/.ssh/id_rsa
 
     # Copy public key and add to github.com > Settings > SSH and GPG keys
@@ -63,9 +65,8 @@ Deactivate licenses:
     ssh -T git@github.com
 
     # Switch from HTTPS to SSH
-    git remote set-url origin git@github.com:eieioxyz/dotfiles_macos.git
+    git remote set-url origin git@github.com:cjrpostma/dotfiles_macos.git
     ```
-
 
 ### Manual Steps
 
@@ -81,6 +82,3 @@ Deactivate licenses:
 3. `Alfred Preferences > General > Request Permissions`.
 4. `Alfred Preferences > General > Alfred Hotkey` change to `cmd+space`.
 5. `Alfred Preferences > Advanced > Set preferences folder` and set to `~/Dropbox/dotfiles/Alfred`.
-
-
-
