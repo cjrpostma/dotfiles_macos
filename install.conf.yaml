@@ -2,7 +2,7 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
     ~/.zshrc: zshrc
@@ -13,10 +13,12 @@
     ~/.config/bat:
       create: true
       path: config/bat
+    ~/.config/nvim:
+      create: true
+      path: config/nvim
 
 - create:
     - ~/Work
-
 # - shell:
 #    - command: ./setup_homebrew.zsh
 #      stdout: true
