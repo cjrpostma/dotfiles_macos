@@ -24,6 +24,9 @@ alias set-aws-mi="export AWS_PROFILE=msl"
 alias set-aws-ma-development="export AWS_PROFILE=mslc-rtcdev"
 alias set-aws-ma-production="export AWS_PROFILE=massit-ma-state-lottery"
 
+# Syntax highlighting for man pages
+alias man=batman
+
 # Testing
 alias yti="yarn test:integration"
 alias ytu="yarn test:unit"
