@@ -1,7 +1,7 @@
 [core]
-	excludesfile = ~/.gitignore
-	editor = nvim
-	ignorecase = false
+  excludesfile = ~/.gitignore
+  editor = nvim
+  ignorecase = false
 [push]
   default = simple
 [color]
@@ -35,28 +35,27 @@
   edit-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; vim `f`"
   # add conflicted file on merge
   add-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; git add `f`"
-
 [hub]
   protocol = https
 [github]
-	user = cjrpostma
+  user = cjrpostma
 [diff]
   tool = nvimdiff
 [difftool "nvimdiff"]
-	cmd = nvim -d \"$LOCAL\" \"$REMOTE\"
-	path = 
+  cmd = nvim -d \"$LOCAL\" \"$REMOTE\"
+  path = 
 [mergetool "nvimdiff"]
-	cmd = nvim -d \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+  cmd = nvim -d \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	required = true
-	process = git-lfs filter-process
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  required = true
+  process = git-lfs filter-process
 [ghq]
   root = ~/.ghq
 [user]
-	name = Chris Postma
-	email = 44818815+cjrpostma@users.noreply.github.com
-	editor = vim
-	excludesfile = ~/.dotfiles/gitignore_global
+  name = Chris Postma
+  email = 44818815+cjrpostma@users.noreply.github.com
+  editor = vim
+  excludesfile = ~/.dotfiles/gitignore_global
