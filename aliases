@@ -18,6 +18,10 @@ alias rm="rm -i"
 alias mv="mv -i"
 alias cp="cp -i"
 
+
+# Formatted path command
+alias trail="<<<${(F)path}"
+
 # AWS accounts
 alias set-aws-personal="export AWS_PROFILE=personal"
 alias set-aws-mi="export AWS_PROFILE=msl"

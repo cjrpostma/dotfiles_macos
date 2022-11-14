@@ -1,3 +1,5 @@
+source ~/.dotfiles/aliases
+
 # Set Variables
 export NULLCMD=bat
 export DOTFILES="$HOME/.dotfiles"
@@ -156,4 +158,3 @@ load-nvmrc
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
 
-source ~/.dotfiles/aliases
