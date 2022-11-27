@@ -18,7 +18,6 @@ alias rm="rm -i"
 alias mv="mv -i"
 alias cp="cp -i"
 
-
 # Formatted path command
 alias trail="<<<${(F)path}"
 
