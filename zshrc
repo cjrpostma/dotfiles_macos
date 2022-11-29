@@ -26,6 +26,9 @@ plugins=(
   # zsh-autocomplete
 )
 
+# Setup Brew shell completions
+FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
 # oh-my-zsh source
 source $ZSH/oh-my-zsh.sh
 
@@ -58,7 +61,6 @@ load-nvmrc() {
       nvm use
     fi
   elif [ "$node_version" != "$(nvm version default)" ]; then
-    echo "Reverting to nvm default version"
     nvm use default
   fi
 }
