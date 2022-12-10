@@ -82,8 +82,6 @@ cask "rectangle-pro"
 cask "slack"
 # Music streaming service
 cask "spotify"
-# Video game digital distribution service
-cask "steam"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Open-source code editor
