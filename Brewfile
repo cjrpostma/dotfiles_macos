@@ -24,8 +24,6 @@ brew "jq"
 brew "mkcert"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Manage multiple Node.js versions
-brew "nvm"
 # Simplistic interactive filtering tool
 brew "peco"
 # Object-relational database system

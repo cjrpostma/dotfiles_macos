@@ -17,6 +17,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Plugins
 plugins=(
+  zsh-nvm
   alias-finder
   colored-man-pages
   git
@@ -43,8 +44,6 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
-  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 # Automatically switch node versions in directories with .nvmrc files
 autoload -U add-zsh-hook
