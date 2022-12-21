@@ -68,6 +68,7 @@ load-nvmrc
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
+source /Users/chris/.docker/init-zsh.sh || true # Added by Docker Desktop
 
 # Aliases
 source ~/.dotfiles/aliases

@@ -11,7 +11,7 @@ brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Pack, ship and run any application as a lightweight container
-brew "docker"
+brew "docker", link: false
 # Modern replacement for 'ls'
 brew "exa"
 # GitHub command-line tool
@@ -50,6 +50,8 @@ brew "heroku/brew/heroku"
 cask "1password"
 # Application launcher and productivity software
 cask "alfred"
+# Server and cloud storage browser
+cask "cyberduck"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
