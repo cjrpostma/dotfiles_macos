@@ -70,6 +70,8 @@ cask "font-meslo-lg-nerd-font"
 cask "google-chrome"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Keyboard customizer
+cask "karabiner-elements"
 # Open-source keystroke visualizer
 cask "keycastr"
 # Knowledge base that works on top of a local folder of plain text Markdown files
