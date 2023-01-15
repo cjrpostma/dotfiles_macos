@@ -13,8 +13,8 @@ defaults write com.apple.finder NewWindowTargetPath -string "file://$HOME/.dotfi
 defaults write com.apple.Finder AppleShowAllFiles true
 
 # System Preferences > Keyboard
-defaults write -g KeyRepeat -int 1.15
-defaults write -g InitialKeyRepeat -int 12
+defaults write -g KeyRepeat -int 1.40
+defaults write -g InitialKeyRepeat -int 1
 
 # System Preferences > Dock
 defaults write com.apple.dock magnification -bool true
