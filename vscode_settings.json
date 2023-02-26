@@ -15,24 +15,22 @@
   "telemetry.telemetryLevel": "off",
   "terminal.explorerKind": "external",
   "terminal.external.osxExec": "iTerm.app",
-  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.iconTheme": "eq-material-theme-icons",
   "diffEditor.codeLens": true,
   "workbench.startupEditor": "newUntitledFile",
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
   "editor.fontLigatures": true,
-  "workbench.colorTheme": "Dracula Pro",
   "editor.cursorBlinking": "phase",
   "editor.renderWhitespace": "boundary",
   "terminal.integrated.tabs.enabled": true,
-  "cSpell.userWords": ["hashicorp", "popd", "pushd"],
   "editor.rulers": [120],
   "editor.snippetSuggestions": "top",
   "editor.wordBasedSuggestions": false,
   "editor.suggest.localityBonus": true,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.smoothScrolling": true,
   "editor.detectIndentation": true,
   "editor.lineNumbers": "relative",
@@ -75,5 +73,8 @@
         }
       ]
     }
-  ]
+  ],
+  "editor.accessibilitySupport": "off",
+  "window.zoomLevel": 2,
+  "workbench.colorTheme": "Tokyo Night Storm"
 }
