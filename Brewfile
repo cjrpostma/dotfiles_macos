@@ -50,6 +50,8 @@ brew "heroku/brew/heroku"
 cask "1password"
 # Application launcher and productivity software
 cask "alfred"
+# 3D creation suite
+cask "blender"
 # Server and cloud storage browser
 cask "cyberduck"
 # Voice and text chat software
