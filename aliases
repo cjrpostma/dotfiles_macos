@@ -34,3 +34,7 @@ alias man=batman
 alias yti="yarn test:integration"
 alias ytu="yarn test:unit"
 alias ydu="yarn docker:up"
+
+# Dev environments
+alias yds="yarn dev:server"
+alias ydc="yarn dev:client"
