@@ -33,6 +33,8 @@ alias man=batman
 # Testing
 alias yti="yarn test:integration"
 alias ytu="yarn test:unit"
+alias yts="yarn test:s"
+alias ytc="yarn test:c"
 alias ydu="yarn docker:up"
 
 # Dev environments
