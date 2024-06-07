@@ -3,6 +3,7 @@ tap "hashicorp/tap"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+tap "homebrew/services"
 tap "romkatv/powerlevel10k"
 # Library and utilities for processing GIFs
 brew "giflib"
@@ -56,10 +57,6 @@ brew "peco"
 brew "pkg-config"
 # PDF rendering library (based on the xpdf-3.0 code base)
 brew "poppler"
-# Object-relational database system
-brew "postgresql@13"
-# Object-relational database system
-brew "postgresql@14"
 # Object-relational database system
 brew "postgresql@16"
 # Python version management
