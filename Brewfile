@@ -107,15 +107,10 @@ cask "docker"
 cask "figma"
 # Web browser
 cask "firefox"
-# Developer targeted fonts with a high number of glyphs
 cask "font-fira-code-nerd-font"
-# Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
-# Developer targeted fonts with a high number of glyphs
 cask "font-jetbrains-mono-nerd-font"
-# Developer targeted fonts with a high number of glyphs
 cask "font-meslo-lg-nerd-font"
-# Developer targeted fonts with a high number of glyphs
 cask "font-symbols-only-nerd-font"
 # Web browser
 cask "google-chrome"
