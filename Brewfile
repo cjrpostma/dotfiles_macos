@@ -16,13 +16,15 @@ brew "bat"
 # Vector graphics library with cross-device output support
 brew "cairo"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
 # Text processing system for reStructuredText
 brew "docutils"
 # Convert text between DOS, UNIX, and Mac formats
 brew "dos2unix"
 # Modern replacement for 'ls'
 brew "exa"
+# Modern, maintained replacement for ls
+brew "eza"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # OpenType text shaping engine
@@ -122,6 +124,8 @@ cask "karabiner-elements"
 cask "keycastr"
 # Security software for business
 cask "nordlayer"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
 # Collaboration platform for API development
 cask "postman"
 # Window snapping tool
@@ -130,6 +134,8 @@ cask "rectangle-pro"
 cask "slack"
 # Music streaming service
 cask "spotify"
+# Video game digital distribution service
+cask "steam"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Open-source code editor
