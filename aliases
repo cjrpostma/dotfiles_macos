@@ -1,11 +1,11 @@
 # Source .zshrc
 alias szsh="source ~/.zshrc"
 
-# ls to exa
-alias exa='exa -laFh --git'
-alias l="exa --icons --sort=ext --git"
-alias ls="exa --icons --all --sort=ext --git"
-alias tree="exa --icons --tree"
+# ls to eza
+alias eza='eza -lah --git'
+alias l="eza --icons --sort=ext --git"
+alias ls="eza --icons --all --sort=ext --git"
+alias tree="eza --icons --tree"
 
 # Load history into shell (shareHistory alternative)
 alias lh='fc -RI; echo "loaded and showing..."; history;'
