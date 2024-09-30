@@ -7,8 +7,6 @@ tap "homebrew/services"
 tap "romkatv/powerlevel10k"
 # Library and utilities for processing GIFs
 brew "giflib"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -16,7 +14,7 @@ brew "bat"
 # Vector graphics library with cross-device output support
 brew "cairo"
 # Pack, ship and run any application as a lightweight container
-brew "docker"
+brew "docker", link: false
 # Text processing system for reStructuredText
 brew "docutils"
 # Convert text between DOS, UNIX, and Mac formats
@@ -63,6 +61,8 @@ brew "poppler"
 brew "postgresql@16"
 # Python version management
 brew "pyenv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Terminal multiplexer
@@ -116,12 +116,18 @@ cask "font-meslo-lg-nerd-font"
 cask "font-symbols-only-nerd-font"
 # Web browser
 cask "google-chrome"
+# Hex editor focussing on speed
+cask "hex-fiend"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Keyboard customiser
 cask "karabiner-elements"
 # Open-source keystroke visualiser
 cask "keycastr"
+# Mouse utility to add gesture functions and smooth scrolling to 3rd party mice
+cask "mac-mouse-fix"
+# Web browser
+cask "microsoft-edge"
 # Security software for business
 cask "nordlayer"
 # Knowledge base that works on top of a local folder of plain text Markdown files
