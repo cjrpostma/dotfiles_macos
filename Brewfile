@@ -126,7 +126,7 @@ cask "karabiner-elements"
 cask "keycastr"
 # Mouse utility to add gesture functions and smooth scrolling to 3rd party mice
 cask "mac-mouse-fix"
-# Web browser
+# Multi-platform web browser
 cask "microsoft-edge"
 # Security software for business
 cask "nordlayer"
