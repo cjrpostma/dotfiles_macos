@@ -70,9 +70,15 @@ autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
 source /Users/chris/.docker/init-zsh.sh || true # Added by Docker Desktop
 
+# Pythong
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+# Ruby
+export GEM_HOME=$HOME/.gem
+export PATH=$GEM_HOME/bin:$PATH
+eval "$(rbenv init -)"
 
 # Aliases
 source ~/.dotfiles/aliases
