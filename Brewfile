@@ -19,8 +19,6 @@ brew "docker", link: false
 brew "docutils"
 # Convert text between DOS, UNIX, and Mac formats
 brew "dos2unix"
-# Modern replacement for 'ls'
-brew "exa"
 # Modern, maintained replacement for ls
 brew "eza"
 # Simple, fast and user-friendly alternative to find
@@ -63,6 +61,8 @@ brew "postgresql@16"
 brew "pyenv"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
+# Ruby version manager
+brew "rbenv"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Terminal multiplexer
