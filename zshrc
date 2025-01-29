@@ -11,6 +11,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Bat
 export NULLCMD=bat
 export DOTFILES="$HOME/.dotfiles"
+export BAT_THEME=tokyonight_night
 
 # Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -87,3 +88,24 @@ source ~/.dotfiles/aliases
 [[ ! -f ~/.dotfiles/p10k.zsh ]] || source ~/.dotfiles/p10k.zsh
 
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+
+set -o vi
+eval "$(fzf --zsh)"
+
+# -- Use fd instead of fzf --
+
+export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git"
+
+# Use fd (https://github.com/sharkdp/fd) for listing path candidates.
+# - The first argument to the function ($1) is the base path to start traversal
+# - See the source code (completion.{bash,zsh}) for the details.
+_fzf_compgen_path() {
+  fd --hidden --exclude .git . "$1"
+}
+
+# Use fd to generate the list for directory completion
+_fzf_compgen_dir() {
+  fd --type=d --hidden --exclude .git . "$1"
+}
