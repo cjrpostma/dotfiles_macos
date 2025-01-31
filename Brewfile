@@ -51,8 +51,8 @@ brew "mkcert"
 brew "neovim"
 # Simplistic interactive filtering tool
 brew "peco"
-# Manage compile and link flags for libraries
-brew "pkg-config"
+# Package compiler and linker metadata toolkit
+brew "pkgconf"
 # PDF rendering library (based on the xpdf-3.0 code base)
 brew "poppler"
 # Object-relational database system
@@ -65,6 +65,8 @@ brew "python@3.11"
 brew "rbenv"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Easiest, most secure way to use WireGuard and 2FA
+brew "tailscale"
 # Terminal multiplexer
 brew "tmux"
 # Command-line unarchiving tools supporting multiple formats
@@ -85,8 +87,6 @@ brew "zsh"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# Bash scripts that integrate bat with various command-line tools
-brew "eth-p/software/bat-extras"
 # Terraform
 brew "hashicorp/tap/terraform"
 # Everything you need to get started with Heroku
@@ -116,14 +116,10 @@ cask "font-meslo-lg-nerd-font"
 cask "font-symbols-only-nerd-font"
 # Web browser
 cask "google-chrome"
-# Hex editor focussing on speed
-cask "hex-fiend"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Keyboard customiser
 cask "karabiner-elements"
-# Open-source keystroke visualiser
-cask "keycastr"
 # Mouse utility to add gesture functions and smooth scrolling to 3rd party mice
 cask "mac-mouse-fix"
 # Multi-platform web browser
@@ -140,8 +136,6 @@ cask "rectangle-pro"
 cask "slack"
 # Music streaming service
 cask "spotify"
-# Video game digital distribution service
-cask "steam"
 # Native GUI tool for relational databases
 cask "tableplus"
 # Open-source code editor
