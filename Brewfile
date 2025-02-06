@@ -49,6 +49,8 @@ brew "librsvg"
 brew "mkcert"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Development kit for the Java programming language
+brew "openjdk"
 # Simplistic interactive filtering tool
 brew "peco"
 # Package compiler and linker metadata toolkit
@@ -67,6 +69,8 @@ brew "rbenv"
 brew "ripgrep"
 # Easiest, most secure way to use WireGuard and 2FA
 brew "tailscale"
+# Official tldr client written in Rust
+brew "tlrc"
 # Terminal multiplexer
 brew "tmux"
 # Command-line unarchiving tools supporting multiple formats
@@ -143,8 +147,6 @@ cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
 vscode "aaron-bond.better-comments"
-vscode "catppuccin.catppuccin-vsc"
-vscode "catppuccin.catppuccin-vsc-icons"
 vscode "chakrounanas.turbo-console-log"
 vscode "christian-kohler.npm-intellisense"
 vscode "christian-kohler.path-intellisense"
