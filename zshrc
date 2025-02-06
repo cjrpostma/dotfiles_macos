@@ -109,3 +109,5 @@ _fzf_compgen_path() {
 _fzf_compgen_dir() {
   fd --type=d --hidden --exclude .git . "$1"
 }
+
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
