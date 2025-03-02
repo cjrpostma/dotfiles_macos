@@ -2,8 +2,33 @@
   excludesfile = ~/.gitignore
   editor = nvim
   ignorecase = false
+[help]
+  autocorrect = prompt
+[rerere]
+  enabled = true
+  autoupdate = true
+[commit]
+  verbose = true
+[rebase]
+  autoSquash = true
+  autoStash = true
+  updateRefs = true
 [push]
   default = simple
+  autoSetupRemote = true
+  followTags = true
+[fetch]
+  prune = true
+  pruneTags = true
+  all = true
+[column]
+  ui = auto
+[branch]
+  sort = -committerdate
+[tag]
+  sort = version:refname
+[init]
+  defaultBranch = main
 [color]
   status = auto
   diff = auto
@@ -41,6 +66,10 @@
   user = cjrpostma
 [diff]
   tool = nvimdiff
+  algorithm = histogram
+  colorMoved = plain
+  mnemonicPrefix = true
+  renames = true
 [difftool "nvimdiff"]
   cmd = nvim -d \"$LOCAL\" \"$REMOTE\"
   path = 
