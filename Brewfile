@@ -2,7 +2,6 @@ tap "eth-p/software"
 tap "hashicorp/tap"
 tap "heroku/brew"
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 tap "homebrew/services"
 tap "romkatv/powerlevel10k"
 # Library and utilities for processing GIFs
@@ -51,6 +50,8 @@ brew "mkcert"
 brew "neovim"
 # Development kit for the Java programming language
 brew "openjdk"
+# 7-Zip (high compression file archiver) implementation
+brew "p7zip"
 # Simplistic interactive filtering tool
 brew "peco"
 # Package compiler and linker metadata toolkit
@@ -67,8 +68,6 @@ brew "python@3.11"
 brew "rbenv"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Easiest, most secure way to use WireGuard and 2FA
-brew "tailscale"
 # Official tldr client written in Rust
 brew "tlrc"
 # Terminal multiplexer
@@ -108,7 +107,7 @@ cask "cyberduck"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
-cask "docker"
+cask "docker-desktop"
 # Collaborative team software
 cask "figma"
 # Web browser
@@ -143,28 +142,5 @@ cask "slack"
 cask "spotify"
 # Native GUI tool for relational databases
 cask "tableplus"
-# Open-source code editor
-cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
-vscode "aaron-bond.better-comments"
-vscode "chakrounanas.turbo-console-log"
-vscode "christian-kohler.npm-intellisense"
-vscode "christian-kohler.path-intellisense"
-vscode "dbaeumer.vscode-eslint"
-vscode "eamodio.gitlens"
-vscode "ecmel.vscode-html-css"
-vscode "enkia.tokyo-night"
-vscode "esbenp.prettier-vscode"
-vscode "graphql.vscode-graphql"
-vscode "graphql.vscode-graphql-execution"
-vscode "graphql.vscode-graphql-syntax"
-vscode "hashicorp.terraform"
-vscode "mechatroner.rainbow-csv"
-vscode "ms-vsliveshare.vsliveshare"
-vscode "pkief.material-icon-theme"
-vscode "streetsidesoftware.code-spell-checker"
-vscode "unifiedjs.vscode-mdx"
-vscode "vscodevim.vim"
-vscode "vspacecode.vspacecode"
-vscode "vspacecode.whichkey"
