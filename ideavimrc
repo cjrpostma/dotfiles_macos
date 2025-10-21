@@ -6,6 +6,7 @@ set relativenumber
 set showmode
 set showcmd
 set multiple-cursors
+set surround
 
 " Use system clipboard
 
