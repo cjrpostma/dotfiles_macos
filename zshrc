@@ -112,4 +112,3 @@ _fzf_compgen_dir() {
 
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 export PATH="/Applications/WebStorm.app/Contents/MacOS:$PATH"
-export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
