@@ -49,7 +49,7 @@ brew "mkcert"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Development kit for the Java programming language
-brew "openjdk"
+brew "openjdk@21"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
 # Simplistic interactive filtering tool
@@ -102,20 +102,21 @@ cask "alfred"
 cask "android-studio"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# Write, edit, and chat about your code with AI
+cask "cursor"
 # Server and cloud storage browser
 cask "cyberduck"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
-# Collaborative team software
-cask "figma"
 # Web browser
 cask "firefox"
 cask "font-blex-mono-nerd-font"
 cask "font-fira-code-nerd-font"
 cask "font-hack-nerd-font"
 cask "font-jetbrains-mono-nerd-font"
+cask "font-maple-mono-nf"
 cask "font-meslo-lg-nerd-font"
 cask "font-symbols-only-nerd-font"
 # Web browser
